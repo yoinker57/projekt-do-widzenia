@@ -8,7 +8,7 @@ Wykorzystaliśmy framework Optuna do trenowania hiperparametru (liczby klatek), 
 
 ## Wyniki obliczeń
 
-Poniżej umieszczone porównanie modeli ze zmienną liczbą klatek, najlepsze wyniki wyszły dla liczby klatek równej 6, a drugie najlepsze dla liczby klatek równej 14
+Poniżej umieszczone porównanie modeli ze zmienną liczbą klatek, w sumie wytrenowaliśmy i zewaluowaliśmy 13 modeli z różną wartością hiperparametru (liczby klatek). Najlepsze wyniki wyszły dla liczby klatek równej 6, a drugie najlepsze dla liczby klatek równej 14
 
 ![](metrics_vs_frames.png)
 
