@@ -208,3 +208,5 @@ __marimo__/
 data/
 timesformer_results/
 models/
+optuna_results/
+
