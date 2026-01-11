@@ -4,7 +4,7 @@ Autorzy: Jakub Bizan, Kacper Jurek, Jakub Kroczek, Radosław Niżnik, Piotr Wola
 Wykorzystaliśmy model TimeSformer do predykcji ćwiczeń ze zbioru danych otrzymanych na zajęciach
 
 ## Środowisko testowe
-Wykorzystaliśmy framework Optuna do trenowania hiperparametru (liczby klatek), wstępnie uruchomiliśmy modele na lokalnych zasobach. Z powodu zbyt długiego czasu trwania obliczeń, przenieśliśmy trenowanie modeli na klaster obliczeniowy Ares.
+Wykorzystaliśmy framework Optuna do trenowania hiperparametru (liczby klatek), wstępnie uruchomiliśmy modele na lokalnych zasobach aby sprawdzić czy konfiguracja i wersje bibliotek są poprawne. Później postawiliśmy bazę i stworzyliśmy klaster obliczeniowy na własnych komputerach (wykorzystywaliśmy do liczenia RTX5070 oraz RTX3070), a później już lokalnie na jednym komputerze testowaliśmy działanie modeli.
 
 ## Wyniki obliczeń
 
